@@ -28,10 +28,9 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 
-        {/* LEFT: LinkedIn Icon */}
         <div className="flex items-center gap-3">
           <a
-            href="https://www.linkedin.com/in/vaishnavi-varaganti"
+            href="https://www.linkedin.com/in/vaishnavigupta08/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-110 transition-transform"
@@ -40,7 +39,6 @@ const Navbar = () => {
             <FaLinkedin className="w-7 h-7 text-[#0A66C2]" />
           </a>
 
-          {/* Name and Title */}
           <Link
             to="/"
             onClick={() => {
@@ -56,7 +54,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* CENTER/RIGHT: Desktop Nav */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
@@ -70,8 +67,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        {/* RIGHT: Mobile Hamburger */}
+        
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}

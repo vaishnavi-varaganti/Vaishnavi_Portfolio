@@ -175,7 +175,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2024 – Present",
     points: [
-      "Building a Clinical Decision Support System for a healthcare client using Java 17, Spring Boot, and Kafka. Integrated with Vision 3 EHR via REST APIs and deployed on Azure AKS. Created a React.js admin UI with Redux and JWT auth, and automated deployments using GitLab CI/CD."
+      "Developed a Panel Management System using Spring Boot, MySQL, React.js, and Kafka. Built five key modules and automated interview scheduling. Deployed on AWS and ensured UI reliability with Jest and backend tests using JUnit and Mockito."
     ]
   },
   {
@@ -215,7 +215,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2020 – May 2021",
     points: [
-      "Developed a Panel Management System using Spring Boot, MySQL, React.js, and Kafka. Built five key modules and automated interview scheduling. Deployed on AWS and ensured UI reliability with Jest and backend tests using JUnit and Mockito."
+      "Built a Clinical Decision Support System for a healthcare client using Java 17, Spring Boot, and Kafka. Integrated with Vision 3 EHR via REST APIs and deployed on Azure AKS. Created a React.js admin UI with Redux and JWT auth, and automated deployments using GitLab CI/CD."
     ]
   }
 ];
